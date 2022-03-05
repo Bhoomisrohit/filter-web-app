@@ -1,0 +1,28 @@
+h3
+{
+  font-size: 24px !important;
+  font-family: 'Redressed', cursive;
+  color: rgb(84, 250, 195);
+  
+}
+
+.background.hover
+{
+  color: red;
+}
+
+canvas
+{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px rgb(243, 214, 51);}
+    to{box-shadow: 1px 1px 38px rgb(8, 26, 29);}
+}
+
+
+
+
